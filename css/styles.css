@@ -101,8 +101,7 @@ padding: 1rem 0;
 @media (min-width: 768px) {
     .grid{
         grid-template-columns: repeat(3, 1fr);
-    }
-    
+    } 
 }
 
 /** Productos **/
@@ -115,18 +114,23 @@ padding: 1rem 0;
     width: 100%;
 }
 
-.producto__informacion{
-
-}
-
 .producto__nombre{
-
+    font-size: 3rem;
 }
 
 .producto__precio{
+    font-size: 2.5rem;
+    color: var(--naranja);
 
 }
 
+.producto__nombre,
+.producto__precio{
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    margin: 1rem 0;
+    line-height: 1.2;
+}
 
 /** Footer **/
 .footer{
